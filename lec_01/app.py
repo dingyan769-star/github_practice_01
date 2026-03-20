@@ -9,6 +9,9 @@ def sub(a, b):
 
 # 除法
 def divide(a, b):
+    if b == 0:
+        print(f'除数不能为0')
+        return
     return a / b
 
 if __name__ == "__main__":
