@@ -1,5 +1,11 @@
+# 加法
 def add(a, b):
     return a + b
+
+
+# 减法
+def sub(a, b):
+    return a - b
 
 if __name__ == "__main__":
 
